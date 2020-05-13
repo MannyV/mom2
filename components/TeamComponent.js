@@ -13,14 +13,14 @@ const TeamPage = () => {
   return (
     <Card className="my-5 px-1 pb-5 text-center">
       <CardBody>
-        <h2 className="h1-responsive font-weight-bold my-5">
+        <Text h2 className="h1-responsive font-weight-bold my-5">
           Our amazing team
-        </h2>
-        <p className="grey-text w-responsive mx-auto mb-5">
+        </Text >
+        <Text className="grey-text w-responsive mx-auto mb-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
           amet numquam iure provident voluptate esse quasi, veritatis totam
           voluptas nostrum quisquam eum porro a pariatur veniam.
-        </p>
+        </Text>
         <Row>
         <Col md="4" className="mb-md-0 mb-5">
             <CardImg
@@ -29,10 +29,10 @@ const TeamPage = () => {
               className="rounded z-depth-1-half img-fluid"
               alt="Sample avatar"
             />
-            <h4 className="font-weight-bold dark-grey-text my-4">John Doe</h4>
-            <h6 className="text-uppercase grey-text mb-3">
+            <Text h4  className="font-weight-bold dark-grey-text my-4">John Doe</Text>
+            <Text h6  className="text-uppercase grey-text mb-3">
             Full-Stack Developer
-            </h6>
+            </Text >
             <Button tag="a" floating size="sm" className="mx-1 mb-0 btn-email">
             <i class="fas fa-envelope"/>
             </Button>
@@ -51,10 +51,10 @@ const TeamPage = () => {
               className="rounded z-depth-1-half img-fluid"
               alt="Sample avatar"
             />
-            <h4 className="font-weight-bold dark-grey-text my-4">John Doe</h4>
-            <h6 className="text-uppercase grey-text mb-3">
+            <Text h4  className="font-weight-bold dark-grey-text my-4">John Doe</Text h4 >
+            <Text h6  className="text-uppercase grey-text mb-3">
             Full-Stack Developer
-            </h6>
+            </Text >
             <Button tag="a" floating size="sm" className="mx-1 mb-0 btn-email">
             <i class="fas fa-envelope"/>
             </Button>
@@ -73,10 +73,10 @@ const TeamPage = () => {
               className="rounded z-depth-1-half img-fluid"
               alt="Sample avatar"
             />
-            <h4 className="font-weight-bold dark-grey-text my-4">John Doe</h4>
-            <h6 className="text-uppercase grey-text mb-3">
+            <Text h4  className="font-weight-bold dark-grey-text my-4">John Doe</Text h4 >
+            <Text h6  className="text-uppercase grey-text mb-3">
              Full-Stack Developer
-            </h6>
+            </Text >
             <Button tag="a" floating size="sm" className="mx-1 mb-0 btn-email">
             <i class="fas fa-envelope"/>
             </Button>

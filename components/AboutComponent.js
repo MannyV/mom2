@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Card } from 'react-native-elements';
-import { Text, ScrollView, FlatList } from 'react-native';
+import { Text, ScrollView, FlatList,View } from 'react-native';
 import { ListItem } from 'react-native-elements';
 import * as Animatable from 'react-native-animatable';
 import { connect } from 'react-redux';
-import { baseUrl } from '../shared/baseUrl';
+
 import Loading from './LoadingComponent';
 
 
@@ -19,23 +19,23 @@ function About(props) {
    
 
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col">
+        <View className="container">
+            <View className="row">
+                <View className="col">
                     <Breadcrumb>
                         <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                         <BreadcrumbItem active>About Us</BreadcrumbItem>
                     </Breadcrumb>
                     <h2>About Us</h2>
                     <hr />
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-sm-6">
+                </View>
+            </View>
+            <View className="row row-content">
+                <View className="col-sm-6">
                     <h3>Our Mission</h3>
                     <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</p>
-                </div>
-                <div className="col-sm-6">
+                </View>
+                <View className="col-sm-6">
                     <Card>
                         <CardHeader className="bg-primary text-white"><h3>Facts At a Glance</h3></CardHeader>
                         <CardBody>
@@ -51,8 +51,8 @@ function About(props) {
                             </dl>
                         </CardBody>
                     </Card>
-                </div>
-                <div className="col">
+                </View>
+                <View className="col">
                     <Card className="bg-light mt-3">
                         <CardBody>
                             <blockquote className="blockquote">
@@ -64,19 +64,19 @@ function About(props) {
                             </blockquote>
                         </CardBody>
                     </Card>
-                </div>
-            </div>
-            <div className="row row-content">
-                <div className="col-12">
+                </View>
+            </View>
+            <View className="row row-content">
+                <View className="col-12">
                     <h3>Community Partners</h3>
-                </div>
-                <div className="col mt-4">
+                </View>
+                <View className="col mt-4">
                     <Media list>
                     
                     </Media>
-                </div>
-            </div>
-        </div>
+                </View>
+            </View>
+        </View>
     );
 
 }
