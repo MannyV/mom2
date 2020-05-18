@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from './components/MainComponent';
 import { StyleSheet, Text, View } from 'react-native';
 import { MDCalendar } from './components/CalendarComponent'
 
