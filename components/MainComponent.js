@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TeamPage from './TeamComponent';
+
 
 class Main extends Component {
     constructor(props) {
@@ -17,7 +17,7 @@ class Main extends Component {
                         <Route exact path='/todolist' component={TodoList}/>
                         <Route exact path='/about' component={About}/>
                         <Route exact path='/contact' component={Contact}/>
-                        <Route exact path='/team' component={TeamPage}/>
+                        
                        
                         <Redirect to='/home' />
                     </Switch>
